@@ -141,8 +141,10 @@ The Softmax function is defined as:<BR>
 <span style="font-size: 2em;">
 $\sigma (z_i) = \frac{  e^{z_i} }{\sum_{j=1}^n e^{z_j}}$<BR>
 <span style="font-size: 0.5em;">
-Given logit vector $z = [8, 6, 3] $ from our example:<BR>
-<span style="font-size: 1.5em;">
+Given logit vector z = [8, 6, 3]  from our example:<BR>
+
+<span style="font-size: 1.5;">
+  
 $\sum_{j=1}^n e^{z_j} = e^8 + e^6 + e^3 = 3404$<BR>
 
 Thus,<BR>
