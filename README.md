@@ -112,3 +112,50 @@ Later in our research, we wanted to see if a stated confidence score would lead 
 For more documentation on the CIA's Words of Estimative Probabilities, see:
 https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf
 
+##### Tokens
+
+Tokens are words or word fragments that the model has been pretrained to have embeddings for. These embeddings are high-dimensional vectors that help the model gain a sense of word association.
+
+Example:
+
+"The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration."<BR>
+-(Attention Is All You Need, Vaswani et al.)<BR>
+https://arxiv.org/abs/1706.03762<BR>
+
+Tokenization:<BR>
+
+'The' 'dom' 'inant' 'seq' 'uence' 'trans' 'duc' 'tion' 'model' 's' 'are' 'base' 'd' ...<BR>
+
+
+
+Notice how at times the token includes the entire word and at times it is only a word fragment. Different models and tokenizers can be trained to split words differently with some tokenizers even assigning multiple words to one token.
+
+
+For more see Grant Sanderson's video on this:
+
+https://youtu.be/wjZofJX0v4M?si=HeZizJeOrIBvCPko&t=748
+
+##### Softmax
+
+The Softmax function is defined as:<BR>
+<span style="font-size: 2em;">
+$\sigma (z_i) = \frac{  e^{z_i} }{\sum_{j=1}^n e^{z_j}}$<BR>
+<span style="font-size: 0.5em;">
+Given logit vector $z = [8, 6, 3] $ from our example:<BR>
+<span style="font-size: 1.5em;">
+$\sum_{j=1}^n e^{z_j} = e^8 + e^6 + e^3 = 3404$<BR>
+
+Thus,<BR>
+<span style="font-size: 1.5em;">
+$\sigma (z_1) = \sigma (8) = \frac{  e^{8} }{\sum_{j=1}^n e^{z_j}} = \frac{2980}{3404} = 0.875$<BR><BR>
+<span style="font-size: 1em;">
+$\sigma (z_2) = \sigma (6) =\frac{  e^{6} }{\sum_{j=1}^n e^{z_j}} = \frac{403}{3404} = 0.118$<BR><BR>
+<span style="font-size: 1em;">
+$\sigma (z_3) = \sigma (3) =\frac{  e^{3} }{\sum_{j=1}^n e^{z_j}} = \frac{20}{3404} = 0.006$<BR><BR>
+
+
+For simplicity, we rounded to whole numbers in the intermediate step.
+
+For more see Grant Sanderson's video on this and how *temperature* can impact output:
+
+https://youtu.be/wjZofJX0v4M?si=8Ex7TbUwsJBtVIrG&t=1342
