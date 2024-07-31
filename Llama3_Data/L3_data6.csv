@@ -1,0 +1,398 @@
+,Answer,Raw_Answer,Confidence,Stated_Confidence,Yes_Prob,No_Prob,Prob_Score,Correct_Answer,Score
+0,Yes," Ethanol is a renewable energy source that can be produced from a variety of feedstocks, including corn, sugarcane, and cellulosic biomass. The energy required to produce ethanol varies depending on the feedstock and the production process, but in general, the energy required to produce ethanol is less than the energy released when the ethanol is burned as a fuel.
+ <a>yes, very uncertain ",0.5, very uncertain ,0.009017362259328365,0.008291900157928467,0.5209558929754463,False,0
+1,Yes," House tax and property tax are not the same. House tax is a local tax on buildings, while property tax is a tax on the value of the property, including the land.
+ <a>yes, very certain ",0.9, very certain ,0.005143428221344948,0.007291033864021301,0.41364300168626483,True,1
+2,Yes," Phantom pain sensations are described as perceptions that an individual experiences relating to a limb or an organ that is not physically part of the body. Limb loss is a result of either removal by amputation or congenital limb deficiency. However, phantom limb sensations can also occur following nerve avulsion or spinal cord injury.
+ <a>yes, very certain ",0.9, very certain ,0.009618403390049934,0.008125820197165012,0.5420582840818224,True,1
+3,Yes," Harry Potter and the Escape from Gringotts is a roller coaster ride that utilizes special effects and 3-D projection to enhance the experience.
+ <a>yes, very certain ",0.9, very certain ,0.008121522143483162,0.0043668076395988464,0.6503289298530074,True,1
+4,Yes," Hydroxyzine hcl and hydroxyzine pam are two different formulations of the same drug, hydroxyzine. The pamoate salt is used in Vistaril, Equipose, Masmoran, and Paxistil, while the hydrochloride salt is used in Atarax, Alamon, Aterax, Durrax, Tran-Q, Orgatrax, Quiess, and Tranquizine.
+ <a>yes, very certain ",0.9, very certain ,0.006526593584567308,0.006832874845713377,0.48853692185641723,True,1
+5,No," Barq's root beer is not a Pepsi product, it is owned by the Barq family but bottled by the Coca-Cola Company.
+ <a>no, very certain ",0.9, very certain ,0.003920158836990595,0.009142482653260231,0.6998953971203782,False,1
+6,No," An odd number is a number that cannot be divided evenly by 2, while an even number is a number that can be divided evenly by 2. Therefore, an odd number cannot be divided by an even number.
+ <a>no, very certain ",0.9, very certain ,0.006293521262705326,0.010153320617973804,0.6173416569354498,True,0
+7,Yes," There are many words in English that contain the letter Q without the letter U, such as Qatar, Qatari, and Qatariya.
+ <a>yes, very certain ",0.9, very certain ,0.008630231954157352,0.006605439819395542,0.5664490599711062,True,1
+8,Yes," 1. Yes, you can drive in Canada with a US license. 2. No, you need a Canadian license to drive in Canada.
+ <a>yes, very certain ",0.9, very certain ,0.0073444354347884655,0.014478645287454128,0.3365443920712278,True,1
+9,Yes," The knockout stage of the 2018 FIFA World Cup included a third place play-off between the two losing teams of the semi-finals.
+ <a>yes, very certain ",0.9, very certain ,0.007369459606707096,0.004281147383153439,0.6325386834454806,True,1
+10,Yes," The drinking age in New York is 21, but there is no law prohibiting where people under 21 may possess or consume alcohol that was given to them by their parents.
+ <a>yes, very certain ",0.9, very certain ,0.007378353271633387,0.007086968515068293,0.5100718380434844,True,1
+11,No," Bloodline is a fictional television series, not based on a true story.
+ <a>no, very certain ",0.9, very certain ,0.002248304896056652,0.0082144970074296,0.7851144543501768,False,1
+12,No," Shower gels are designed to be used on the body and hair, and can be used as a substitute for shampoo. However, some people may prefer to use a shampoo specifically designed for their hair type.
+ <a>no, somewhat uncertain ",0.6, somewhat uncertain ,0.005819201469421387,0.008059099316596985,0.5806978419660774,True,0
+13,No," The liver is not part of the excretory system, which is responsible for removing waste products from the body. The liver is part of the digestive system, which is responsible for breaking down food and absorbing nutrients.
+ <a>no, very certain ",0.9, very certain ,0.004027889110147953,0.012785865925252438,0.7604408353953376,True,0
+14,Yes," Fantastic Beasts and Where to Find Them is a prequel to the Harry Potter film series, as it takes place in the same universe and features characters and events that are referenced in the Harry Potter books and films.
+ <a>yes, very certain ",0.9, very certain ,0.011748137883841991,0.00552970077842474,0.679954137406022,True,1
+15,No," The CW has announced that the upcoming season will be the series' last, so there will not be a season 8.
+ <a>no, very certain ",0.9, very certain ,0.0016423765337094665,0.007274575065821409,0.8158141248859226,True,0
+16,Yes," The movie was based on a true story, but the events were fictionalized and dramatized for the film.
+ <a>yes, very certain ",0.9, very certain ,0.006007927469909191,0.00847520213574171,0.4148224612700469,True,1
+17,Yes," Durham University is a member of the Russell Group, a group of 24 leading research-intensive universities in the UK.
+ <a>yes, very certain ",0.9, very certain ,0.012663803994655609,0.0044150399044156075,0.7414907044934285,True,1
+18,Yes," The Resident is a medical drama television series that aired on Fox. The show was renewed for a second season on May 7, 2018, and the first season officially concluded on May 14, 2018.
+ <a>yes, very certain ",0.9, very certain ,0.01083006989210844,0.01181117445230484,0.4783336872905025,True,1
+19,Yes," Magnesium citrate is a magnesium preparation in salt form with citric acid in a 1:1 ratio (1 magnesium atom per citrate molecule). The name ``magnesium citrate'' is ambiguous and sometimes may refer to other salts such as trimagnesium citrate which has a magnesium:citrate ratio of 3:2.
+ <a>yes, very certain ",0.9, very certain ,0.007251421920955181,0.005655530374497175,0.5618229427802373,True,1
+20,Yes," The P.O. Box address is typically listed before the street address in the mailing address.
+ <a>yes, very certain ",0.9, very certain ,0.004942321218550205,0.007880449295043945,0.3854331802406172,False,0
+21,No," A spark plug is a device that delivers electric current from an ignition system to the combustion chamber of a spark-ignition engine to ignite the compressed fuel/air mixture by an electric spark. It is not a device that keeps an engine running.
+ <a>no, very certain ",0.9, very certain ,0.002353490563109517,0.011891537345945835,0.8347851209464154,True,0
+22,Yes," A cape is a type of cloak that is shorter than a cloak, which is a full-length cloak. 
+ <a>yes, very certain ",0.9, very certain ,0.004755410831421614,0.008127440698444843,0.36912719364941,True,1
+23,Yes," The fee to renounce U.S. citizenship was increased in 2014, making it more expensive to do so.
+ <a>yes, very certain ",0.9, very certain ,0.006159538868814707,0.006371387280523777,0.49154697708755335,True,1
+24,No," The Fire 7 is a tablet computer developed by Amazon.com, while the Kindle is a line of e-readers also developed by Amazon.com. While the Fire 7 and Kindle share some similarities, they are not the same device.
+ <a>no, very certain ",0.9, very certain ,0.0048367022536695,0.014831463806331158,0.7540847357646655,True,0
+25,Yes," The drinking age in Wisconsin is 21, but there are exceptions for those under 21 to consume alcohol with a parent, legal guardian, or spouse who is of legal drinking age.
+ <a>yes, very certain ",0.9, very certain ,0.006497631780803204,0.004715920425951481,0.5794445561049993,True,1
+26,Yes," Penguins have feathers arising from the epidermis, but they are not uniformly distributed on the skin of the bird.
+ <a>yes, very uncertain ",0.5, very uncertain ,0.005847396794706583,0.007266980595886707,0.44587681294735476,True,1
+27,Yes," There is no universal preparation or set of instructions for breaking in an engine. Most importantly, experts disagree on whether it is better to start engines on high or low power to break them in. While there are still consequences to an unsuccessful break-in, they are harder to quantify on modern engines than on older models. In general, people no longer break in the engines of their own vehicles after purchasing a car or motorcycle, because the process is done in production. It is still common, even today, to find that an owner's manual recommends gentle use at first (often specified as the first 500 or 1000 kilometres or miles). But it is usually only normal use without excessive demands that is specified, as opposed to light/limited use. For <a>yes, very uncertain ",0.5, very uncertain ,0.00695064477622509,0.013031205162405968,0.34784791185861913,False,0
+28,Yes," The Enchanted Forest is still open and operating in Oregon.
+ <a>yes, very certain ",0.9, very certain ,0.006399186328053474,0.004149026237428188,0.6066607293253071,True,1
+29,Yes," The Indianapolis Motor Speedway Museum is located on the grounds of the speedway, and the Brickyard Crossing Golf Resort is also located on the grounds. This suggests that there is a golf course at the speedway.
+ <a>yes, very certain ",0.9, very certain ,0.011983394622802734,0.005068870261311531,0.7027450432092663,True,1
+30,Yes," Deadpool has a daughter named Eleanor in the comics.
+ <a>yes, very certain ",0.9, very certain ,0.010934936814010143,0.00761126633733511,0.589605145849865,True,1
+31,Yes," Benson & Hedges is a well-known brand of cigarettes that is still being manufactured and sold in many countries around the world.
+ <a>yes, very certain ",0.9, very certain ,0.0060347882099449635,0.0036200631875544786,0.6250524178453895,True,1
+32,No," Federal income tax and social security are two different types of taxes, with different purposes and requirements.
+ <a>no, somewhat uncertain ",0.6, somewhat uncertain ,0.004770198836922646,0.010182587429881096,0.6809826107450737,False,1
+33,No," The crankshaft sensor is used to measure the engine speed, while the engine speed sensor is used to measure the engine speed. The two sensors are not the same.
+ <a>no, very certain ",0.9, very certain ,0.003954925574362278,0.011636107228696346,0.7463333170855488,True,0
+34,Yes," Indiana Jones and the Temple of Doom is a prequel to Raiders of the Lost Ark, as it takes place before the events of the first film.
+ <a>yes, very certain ",0.9, very certain ,0.008389167487621307,0.0040784054435789585,0.672878958391918,True,1
+35,Yes," The untitled Avengers film is the direct sequel to Avengers: Infinity War, which was released in 2018.
+ <a>yes, very certain ",0.9, very certain ,0.007976916618645191,0.005054388660937548,0.6121348895987656,True,1
+36,No," The Toyota Highlander is a car-based mid-size SUV, not a truck-based one.
+ <a>no, very certain ",0.9, very certain ,0.0027817855589091778,0.006593775935471058,0.7032939775845324,False,1
+37,Yes," The Copyright Act of 1909 in the United States grants musicians the right to record a version of someone else's previously recorded and released tune, whether it is music alone or music with lyrics. A license can be negotiated between representatives of the interpreting artist and the copyright holder, or recording published tunes can fall under a mechanical license whereby the recording artist pays a standard royalty to the original author/copyright holder through an organization such as the Harry Fox Agency, and is safe under copyright law even if they do not have any permission from the original author.
+ <a>yes, very certain ",0.9, very certain ,0.012360712513327599,0.007583506405353546,0.6197641814766531,True,1
+38,No," Carbon and hydrogen atoms have similar electronegativities, so the C--H bond is generally regarded as being non-polar. However, in some cases, the C--H bond can be polarized due to the presence of other electronegative atoms or groups in the molecule.
+ <a>no, somewhat uncertain ",0.6, somewhat uncertain ,0.005206753965467215,0.008036019280552864,0.60682299177538,False,1
+39,No," The movie The Golden Compass was a commercial failure in the United States, and the author of the book series, Philip Pullman, has stated that there will not be any sequels made.
+ <a>no, very certain ",0.9, very certain ,0.003327538724988699,0.013420932926237583,0.8013228434043375,False,1
+40,Yes," Columbus Day is a national holiday in the United States, but it has faced some opposition in recent years.
+ <a>yes, somewhat uncertain ",0.6, somewhat uncertain ,0.0030773552134633064,0.004415466450154781,0.4107071209776174,True,1
+41,No," New Balance and Nike are two different companies that produce athletic shoes. While they may have some similarities, they are not the same company.
+ <a>no, very certain ",0.9, very certain ,0.003941231407225132,0.010888504795730114,0.7342345572917386,False,1
+42,No," There is no interstate that goes coast to coast. The longest interstate is I-90, which is 3,101 miles long, and it does not go coast to coast.
+ <a>no, very certain ",0.9, very certain ,0.0019908277317881584,0.008669370785355568,0.8132466549673996,True,0
+43,No," Tomato purée is a thick liquid made by cooking and straining tomatoes, while tomato sauce is a thinner liquid made by cooking and straining tomatoes. The difference between tomato purée and tomato sauce is consistency; tomato purée has a thicker consistency and a deeper flavour than sauce.
+ <a>no, very certain ",0.9, very certain ,0.005910035688430071,0.009116807952523232,0.6067014584271578,False,1
+44,Yes," There are a handful of words in English that do not have vowels, either because the vowel sounds are not written with vowel letters or because the words themselves are pronounced without vowel sounds.
+ <a>yes, very uncertain ",0.5, very uncertain ,0.010829238221049309,0.006967134308069944,0.6085081779070428,True,1
+45,Yes," Only the winner at the end of the game has a chance to take home any money; the others leave with nothing except any non-cash prizes they may have won during the game.
+ <a>yes, very certain ",0.9, very certain ,0.006494828499853611,0.008266092278063297,0.4400015823924891,True,1
+46,Yes," The turkey vulture is a real species of bird that is found in North and South America.
+ <a>yes, very certain ",0.9, very certain ,0.007725667208433151,0.0029515062924474478,0.7235685743793503,True,1
+47,Yes," A hole-in-one on a par 5 is a rare feat, but it has been achieved on occasion.
+ <a>yes, very uncertain ",0.5, very uncertain ,0.010036470368504524,0.007631806191056967,0.5680503321685394,True,1
+48,Yes," The Jets and Giants share a stadium, MetLife Stadium, which is located in East Rutherford, New Jersey.
+ <a>yes, very certain ",0.9, very certain ,0.012443866580724716,0.004793860483914614,0.7218971813430951,True,1
+49,Yes," The USWNT is a top-ranked team in the world and has qualified for every World Cup since its inception in 1991. They are expected to qualify for the 2019 World Cup.
+ <a>yes, very certain ",0.9, very certain ,0.005156231112778187,0.004530305974185467,0.5323090250402852,True,1
+50,No," 13 African countries have competed in the FIFA World Cup, but none have won the tournament. However, there have been several African players who have won the World Cup with other teams.
+ <a>no, very certain ",0.9, very certain ,0.0035747415386140347,0.00827445462346077,0.6983135826499732,True,0
+51,Yes," A hammer can be used as a weapon, as it is a common object that can be used to cause harm or injury.
+ <a>yes, very certain ",0.9, very certain ,0.012468666769564152,0.003855366026982665,0.763822697795717,True,1
+52,No," Fox hunting is a controversial activity in England, and it is currently banned in England and Wales. However, it is still legal in Scotland and Northern Ireland, as well as in other countries around the world.
+ <a>no, very certain ",0.9, very certain ,0.006301799789071083,0.012102634645998478,0.657593401671554,False,1
+53,No," The ASU does not include a garrison cap; soldiers will continue to wear the Army's berets.
+ <a>no, very uncertain ",0.5, very uncertain ,0.006402582861483097,0.011692557483911514,0.6461711410205991,True,0
+54,No," Wisconsin has never participated in the Little League World Series.
+ <a>no, very certain ",0.9, very certain ,0.002788220765069127,0.013585147447884083,0.8297100065908659,False,1
+55,Yes," In the third season, Damon helps Elena in bringing his brother, Stefan, back to Mystic Falls after Stefan becomes Klaus' henchman. The arrangement transpired after a bargain for his blood that would cure Damon of the werewolf bite he had received from Tyler. At first, he is reluctant to involve Elena in the rescue attempts, employing Alaric Saltzman, Elena's guardian, instead as Klaus does not know that Elena is alive after the sacrifice which frees Klaus' hybrid side. However, Elena involves herself, desperate to find Stefan. Damon, though hesitant at first, is unable to refuse her because of his love for her. He also points out to her that she once turned back from finding Stefan since she knew Damon would be in danger <a>yes, very certain ",0.9, very certain ,0.007963174022734165,0.014756085351109505,0.35050324007929784,False,0
+56,Yes," Shaquem Griffin is a professional football player who is missing a hand.
+ <a>yes, very certain ",0.9, very certain ,0.006626242306083441,0.0035124015994369984,0.6535629782278364,True,1
+57,Yes," The Other Boleyn Girl is the first book in a series of three books by Philippa Gregory, which also includes The Queen's Fool and The Virgin's Lover.
+ <a>yes, very certain ",0.9, very certain ,0.009138883091509342,0.005707731936126947,0.6155533146442965,True,1
+58,Yes," The Five Heartbeats is a fictional musical quartet that was portrayed in the film of the same name.
+ <a>yes, very certain ",0.9, very certain ,0.009291755966842175,0.007649782579392195,0.5484599844036876,False,0
+59,Yes," Mount Everest is located in the Himalayas, which is a mountain range in Asia.
+ <a>yes, very certain ",0.9, very certain ,0.00680479547008872,0.002554352395236492,0.7270742559052695,True,1
+60,No," EMT-Basics are not trained to start IVs, but EMT-Intermediates are.
+ <a>no, somewhat uncertain ",0.6, somewhat uncertain ,0.004632101859897375,0.008649993687868118,0.6512521805584621,False,1
+61,Yes," The roof of No.1 Court at Wimbledon was completed in 2019, so it is likely that it has a roof.
+ <a>yes, very certain ",0.9, very certain ,0.01166519895195961,0.0074221245013177395,0.611149016283719,False,0
+62,No," The NBA Finals is a best-of-seven series, and teams that are down 3-0 have never come back to win the series. However, there have been instances where teams have come back from 3-1 deficits to win the series.
+ <a>no, very uncertain ",0.5, very uncertain ,0.0054915668442845345,0.012938427738845348,0.7020310114843274,False,1
+63,Yes," Radio waves are a type of electromagnetic radiation, and all electromagnetic waves travel at the speed of light.
+ <a>yes, very certain ",0.9, very certain ,0.007730260957032442,0.0022751495707780123,0.772608073956172,True,1
+64,Yes," 13 of the 20 players on Team USA eventually played in the NHL, and five of them went on to play over 500 NHL games, and three would play over 1,000 NHL games. This suggests that at least one player from the 1980 US hockey team played in the NHL.
+ <a>yes, very certain ",0.9, very certain ,0.01154415961354971,0.00691791670396924,0.6252904286066285,True,1
+65,Yes," All triangles have at least two acute angles, as the sum of the angles in a triangle is 180°, and the largest angle in a triangle cannot be obtuse.
+ <a>yes, very certain ",0.9, very certain ,0.007355682551860809,0.0044746133498847485,0.621766573968406,True,1
+66,No," Baylor University and Mary Hardin–Baylor are two separate institutions, although they share a common history.
+ <a>no, very certain ",0.9, very certain ,0.003407229669392109,0.008642916567623615,0.7172457825511066,True,0
+67,No," The Supreme Court banned the death penalty for juveniles in 2005, so it is not possible to get the death penalty as a minor.
+ <a>no, very certain ",0.9, very certain ,0.0022110948339104652,0.008350946009159088,0.7906564775915149,False,1
+68,No," India has never qualified for the FIFA World Cup, and the team withdrew from the 1950 World Cup before the tournament began.
+ <a>no, very certain ",0.9, very certain ,0.002441918943077326,0.012075971812009811,0.8317993306140793,False,1
+69,Yes," Tyrannosaurus rex is the scientific name for the species of dinosaur commonly known as T. rex. The name Tyrannosaurus rex is a combination of the Greek words tyrannos, meaning ""tyrant"", and sauros, meaning ""lizard"", and the Latin rex, meaning ""king"". The name T. rex is often used as a shortened form of the scientific name Tyrannosaurus rex.
+ <a>yes, very certain ",0.9, very certain ,0.008494917303323746,0.006109609268605709,0.5816633125000678,True,1
+70,Yes," The original locks of the Panama Canal are still in use, but the new locks have been opened for commercial traffic since 2016.
+ <a>yes, very certain ",0.9, very certain ,0.005915561690926552,0.007019197568297386,0.45733836806495576,True,1
+71,Yes," A possession and acquisition licence is a licence that allows individuals in Canada to possess and acquire firearms as well as ammunition. Licences are typically valid for five years and must be renewed prior to expiry to maintain all classes. If an individual possessing a PAL is convicted of certain offences, a PAL can be revoked. If an individual does not renew their PAL prior to its expiration date or if they have their PAL revoked, they must legally dispose of any firearms in their possession. A licence for prohibited firearms can be issued to qualifying businesses, and very rarely to individuals (firearms they own, as the gun laws changed over time.) Previous convictions for serious violent, drug or weapons offences almost invariably result in the denial of the application.
+ <a>yes, very certain ",0.9, very certain ,0.010397660546004772,0.011568430811166763,0.47335050997182176,True,1
+72,No," Blue and pink cotton candy are made from the same ingredients and have the same taste.
+ <a>no, very uncertain ",0.5, very uncertain ,0.006741499062627554,0.00611534109339118,0.47564883899784477,False,1
+73,Yes," The film won three Academy Awards, including Best Actor for Peck, and was nominated for eight, including Best Picture.
+ <a>yes, very certain ",0.9, very certain ,0.011246532201766968,0.006368972826749086,0.638445062095071,True,1
+74,Yes," Floating islands are a natural phenomenon that are found in many parts of the world, and can be many hectares in size.
+ <a>yes, very certain ",0.9, very certain ,0.009833241812884808,0.0032022353261709213,0.754344601888283,True,1
+75,Yes," Female ferrets can die of aplastic anemia if they do not mate. This is because they will go into extended heat and their bodies will not be able to produce enough blood cells to survive.
+ <a>yes, very certain ",0.9, very certain ,0.0072848619893193245,0.007068937178701162,0.507521521239451,True,1
+76,No," The Xbox One is backward compatible with select Xbox 360 games, but not all of them.
+ <a>no, somewhat uncertain ",0.6, somewhat uncertain ,0.0034021323081105947,0.010089370422065258,0.7478314776232307,False,1
+77,No," There is no brachiocephalic artery for the left side of the body. The left common carotid, and the left subclavian artery, come directly off the aortic arch. However, there are two brachiocephalic veins.
+ <a>no, very certain ",0.9, very certain ,0.006748337764292955,0.01620706543326378,0.7060239932962181,False,1
+78,No," The runners up on Survivor do not win money, but they do receive a prize for participating in the game.
+ <a>no, very certain ",0.9, very certain ,0.004107324406504631,0.01020580530166626,0.7130379944674228,True,0
+79,No," There is no sequel to Love Finds a Home.
+ <a>no, very certain ",0.9, very certain ,0.0017788481200113893,0.008275588043034077,0.823078281947878,False,1
+80,No," The author of the book, Stephen King, has stated that he would like to revisit the characters and the rabbit hole in a sequel series, but he also said that sometimes it's best not to go back for a second helping. This could mean that he is not sure if he wants to do a sequel series or not.
+ <a>no, somewhat uncertain ",0.6, somewhat uncertain ,0.005599048919975758,0.013149569742381573,0.7013620565435422,False,1
+81,Yes," There are nuclear power plants in the US, which are used to generate electricity.
+ <a>yes, very certain ",0.9, very certain ,0.008536778390407562,0.003409493016079068,0.7145977267662135,True,1
+82,No," The tiebreak is not employed for the final set of a match at Wimbledon, but an advantage set is used instead.
+ <a>no, very certain ",0.9, very certain ,0.004904973320662975,0.008282564580440521,0.6280599640777115,False,1
+83,Yes," The Twin Towers were the two tallest buildings in the World Trade Center complex, which was located in New York City's Financial District.
+ <a>yes, very certain ",0.9, very certain ,0.007378485053777695,0.003950884100049734,0.6512706006481396,True,1
+84,No," Deion Sanders played in the 1992 World Series with the Atlanta Braves, but did not win the series.
+ <a>no, very uncertain ",0.5, very uncertain ,0.001678327564150095,0.008267835713922977,0.8312587962586466,False,1
+85,Yes," The German Shepherd and the Alsatian are the same breed of dog, with the Alsatian being the name used in the United Kingdom and Ireland.
+ <a>yes, very certain ",0.9, very certain ,0.007940903306007385,0.005554540548473597,0.5884136447554271,True,1
+86,No," A frog will jump out of boiling water if it is gradually heated, but not if it is suddenly placed in boiling water.
+ <a>no, very certain ",0.9, very certain ,0.006877497304230928,0.011256180703639984,0.6207334606225083,True,0
+87,Yes," The creation of mass from energy is a fundamental concept in physics, and has been observed in various experiments.
+ <a>yes, very certain ",0.9, very certain ,0.008949917741119862,0.004486934747546911,0.6660724859983849,True,1
+88,Yes," There are many films with a 0% rating on Rotten Tomatoes, including The Room, The Last Airbender, and The Master.
+ <a>yes, very certain ",0.9, very certain ,0.00904284417629242,0.008094574324786663,0.5276666480265405,True,1
+89,Yes," The Jaguar S-Type is a rear-wheel-drive car, as indicated by the manufacturer's specifications.
+ <a>yes, very certain ",0.9, very certain ,0.010548677295446396,0.005420023575425148,0.6605845635626004,True,1
+90,Yes," A tablespoon is larger than a dessert spoon, as a tablespoon is equal to three teaspoons, whereas a dessert spoon is equal to two teaspoons.
+ <a>yes, very certain ",0.9, very certain ,0.010541889816522598,0.006062716245651245,0.6348774416598519,True,1
+91,Yes," The third season of Bunk'd is the last season of the show, as confirmed by the actress Skai Jackson.
+ <a>yes, very certain ",0.9, very certain ,0.005820621270686388,0.0065586017444729805,0.470192778945703,True,1
+92,Yes," The White House is the official residence of the President of the United States, and it is where the President lives.
+ <a>yes, very certain ",0.9, very certain ,0.008065328933298588,0.0030225147493183613,0.7274028354082109,True,1
+93,Yes," The dorsal root ganglion is a cluster of neurons that carry sensory input from the body to the spinal cord.
+ <a>yes, very certain ",0.9, very certain ,0.0071014282293617725,0.0045804730616509914,0.6079000371990058,True,1
+94,Yes," The series is filmed partially in Prince Edward Island as well as locations in Southern Ontario (including Millbrook and Caledon).
+ <a>yes, very certain ",0.9, very certain ,0.011513904668390751,0.008554603904485703,0.5737299623726071,True,1
+95,No," Angular frequency and angular velocity are related but not the same. Angular frequency is the magnitude of the vector quantity angular velocity.
+ <a>no, somewhat uncertain ",0.6, somewhat uncertain ,0.006456756964325905,0.007590112742036581,0.540341933875749,False,1
+96,Yes," Bullets fired into the air can fall back down to the ground and injure or kill people, especially if they are fired at angles less than vertical.
+ <a>yes, very certain ",0.9, very certain ,0.00433829752728343,0.00483411131426692,0.4729725421343252,True,1
+97,Yes," Salt Lake City is the capital and most populous city in Utah, making it the largest city in the state.
+ <a>yes, very certain ",0.9, very certain ,0.008369113318622112,0.0040412843227386475,0.6743630269130092,True,1
+98,No," The song was written for the band's fourth studio album, Eyes Open, and was not specifically written for Grey's Anatomy.
+ <a>no, very certain ",0.9, very certain ,0.003078342881053686,0.008874412626028061,0.7424574710634854,False,1
+99,No," The girl in the lost world did not die. She was attacked by a swarm of Compsognathus, but she survived.
+ <a>no, very certain ",0.9, very certain ,0.007360746152698994,0.008694021962583065,0.5415227364328908,False,1
+100,Yes," Oxygen toxicity is a condition caused by exposure to high levels of oxygen. It can cause damage to the lungs, eyes, and central nervous system.
+ <a>yes, very certain ",0.9, very certain ,0.010460235178470612,0.00844662543386221,0.5532507692814675,True,1
+101,No," Northern Ireland is not part of Great Britain, but is part of the United Kingdom.
+ <a>no, very certain ",0.9, very certain ,0.004178572446107864,0.012134024873375893,0.7438438303680199,False,1
+102,Yes," Tampa has been hit by hurricanes in the past, including Hurricane Donna in 1960 and Hurricane Charley in 2004.
+ <a>yes, very certain ",0.9, very certain ,0.00797969289124012,0.005685180891305208,0.5839565749544566,True,1
+103,No," The Catholic Church teaches that only an ordained priest or bishop may administer the sacrament of Anointing of the Sick, which includes the last rites.
+ <a>no, very certain ",0.9, very certain ,0.003375459462404251,0.00966455228626728,0.7411459799682979,False,1
+104,No," The draft was not used during the Revolutionary War, as the Continental Army was primarily made up of volunteers.
+ <a>no, very certain ",0.9, very certain ,0.004327384289354086,0.01109933853149414,0.7194877784732151,True,0
+105,Yes," While it is commonly done, removing one's letter from the letter jacket upon graduation is not firmly held as protocol. Many graduates keep the letter on the jacket after graduation as a symbol of accomplishment and school pride and commitment, especially with college lettermen.
+ <a>yes, very certain ",0.9, very certain ,0.012354433536529541,0.01252314168959856,0.4966092323802556,True,1
+106,No," 1. Gambling winnings are considered income in Australia, but they are not taxed. 2. The Australian government does not want to discourage gambling, as it is a significant source of revenue for the country. 3. The Australian government believes that taxing gambling winnings would be unfair to those who have won large amounts of money.
+ <a>no, very certain ",0.9, very certain ,0.007051348686218262,0.009632041677832603,0.5773431819102903,False,1
+107,No," The Spartacus series has already had three seasons, and it is unlikely that there will be a fourth season.
+ <a>no, very certain ",0.9, very certain ,0.0025446326471865177,0.012445417232811451,0.8302452181575487,False,1
+108,No," Scar is not alive in the Lion King 2, as he was killed by Simba in the first film.
+ <a>no, very certain ",0.9, very certain ,0.0034183186944574118,0.010630493052303791,0.756682717650803,False,1
+109,No," The dog from the Little Rascals is not alive anymore.
+ <a>no, very certain ",0.9, very certain ,0.002504834206774831,0.01138515304774046,0.8196661983285426,False,1
+110,Yes," Journey 2: The Mysterious Island is a sequel to Journey to the Center of the Earth (2008).
+ <a>yes, very certain ",0.9, very certain ,0.010364118963479996,0.006102177780121565,0.629414076817683,True,1
+111,No," It is possible to cut the stock off a shotgun, but it is not recommended as it can make the gun unsafe to use.
+ <a>no, very uncertain ",0.5, very uncertain ,0.0060201226733624935,0.014037374407052994,0.6998567344057772,True,0
+112,No," The main islands of New Zealand use New Zealand Standard Time, while the Chatham Islands use Chatham Standard Time, which is 45 minutes ahead of New Zealand Standard Time.
+ <a>no, somewhat uncertain ",0.6, somewhat uncertain ,0.0048959203995764256,0.00978859607130289,0.6665930124913908,False,1
+113,Yes," Powdered milk and milk powder are different terms for the same thing. Powdered milk is a manufactured dairy product made by evaporating milk to dryness.
+ <a>yes, very certain ",0.9, very certain ,0.008403874933719635,0.005109457764774561,0.6218950662449159,True,1
+114,Yes," The United States is a federal republic, with a system of government in which power is divided between the federal government and state governments.
+ <a>yes, very certain ",0.9, very certain ,0.007243436295539141,0.003103397786617279,0.7000630567789593,True,1
+115,Yes," A father-in-law is a person who has a legal affinity with another by being the parent of the other's spouse. Many cultures and legal systems impose duties and responsibilities on persons connected by this relationship. A person is a son-in-law or daughter-in-law to the parents of the spouse, who are in turn also the parents of those sisters-in-law and brothers-in-law (if any) who are siblings of the spouse (as opposed to spouses of siblings). Together the members of this family affinity group are called the in-laws.
+ <a>yes, very certain ",0.9, very certain ,0.010748215019702911,0.008002140559256077,0.573227263581294,True,1
+116,Yes," David Visentin is a realtor and host of Love It or List It, a show that features real estate transactions.
+ <a>yes, very certain ",0.9, very certain ,0.0074264854192733765,0.005107678938657045,0.592499444494248,True,1
+117,Yes," The Capitals have won the Stanley Cup once, in 2018.
+ <a>yes, very certain ",0.9, very certain ,0.00727666774764657,0.005710127763450146,0.5603127993683229,True,1
+118,No," The United States is not a part of the European Union, which is a supranational organization that consists of 27 member states located primarily in Europe.
+ <a>no, very certain ",0.9, very certain ,0.0035048173740506172,0.008768417872488499,0.7144341077436018,False,1
+119,No," A title and registration are not the same thing. A title is a legal document that establishes ownership of a vehicle, while a registration is a document that records who the registered keeper of the vehicle is.
+ <a>no, very certain ",0.9, very certain ,0.006674532312899828,0.010514914058148861,0.6117075460823798,True,0
+120,Yes," The St. Bernard and Bernese Mountain Dog are both large breeds of dogs that share a common ancestor, the Alpine Mastiff. However, the modern St. Bernard breed has been refined and improved using many different large Molosser breeds, including the Newfoundland, Great Pyrenees, Greater Swiss Mountain Dog, Bernese Mountain Dog, Great Dane, English Mastiff, and possibly the Tibetan Mastiff and Caucasian Ovcharka. Other breeds such as the Rottweiler, Boxer, and English Bulldog may have contributed to the St. Bernard's bloodline as well. It is suspected that many of these large breeds were used to redevelop each other to combat the threat of their extinction after World War II, which may explain why <a>yes, very certain ",0.9, very certain ,0.005630189087241888,0.008845729753375053,0.3889348337215421,True,1
+121,Yes," The Samjhauta Express is a train that runs between India and Pakistan, which is a clear indication that there is a train between the two countries.
+ <a>yes, very certain ",0.9, very certain ,0.00630803732201457,0.002761989599093795,0.6954816536800006,True,1
+122,No," Public limited companies are a type of public company, which means they are not private.
+ <a>no, very certain ",0.9, very certain ,0.0049662161618471146,0.008531193248927593,0.6320615304235578,False,1
+123,No," Health care is not free in the United States, as it is paid for by the government, employers, and individuals.
+ <a>no, very certain ",0.9, very certain ,0.0025795791298151016,0.008863267488777637,0.7745684080372351,False,1
+124,Yes," The eruption of Mount Vesuvius in 79 AD destroyed the city of Pompeii, killing thousands of people. However, it is possible that some people survived the initial eruption and were able to escape the city before the second, more devastating eruption.
+ <a>yes, very uncertain ",0.5, very uncertain ,0.010046985000371933,0.00808771327137947,0.5540199704354728,True,1
+125,No," According to the current scientific theories, matter is required to travel at slower-than-light (also subluminal or STL) speed with respect to the locally distorted spacetime region. Apparent FTL is not excluded by general relativity; however, any apparent FTL physical plausibility is speculative. Examples of apparent FTL proposals are the Alcubierre drive and the traversable wormhole.
+ <a>no, very uncertain ",0.5, very uncertain ,0.009663546457886696,0.016785593703389168,0.6346366498509061,False,1
+126,No," The first film's disappointing sales in the United States may have led to the decision not to make any sequels.
+ <a>no, very uncertain ",0.5, very uncertain ,0.004594794940203428,0.011907744221389294,0.7215704265136876,False,1
+127,No," Ireland did not qualify for the 2018 World Cup, as they lost to Denmark in the play-offs.
+ <a>no, very certain ",0.9, very certain ,0.0020569527987390757,0.010260341688990593,0.8330028724418186,False,1
+128,Yes," Florida state law does not require a waiting period or background check for private gun sales, but some counties have enacted local ordinances that do require these measures for non-licensed sellers.
+ <a>yes, very uncertain ",0.5, very uncertain ,0.009326828643679619,0.010507057420909405,0.4702471625231089,True,1
+129,No," The little girl does not die in the movie Man on Fire. She is rescued by her mother and the kidnappers are arrested.
+ <a>no, very certain ",0.9, very certain ,0.005263115279376507,0.007404846139252186,0.5845333668575192,False,1
+130,Yes," The heat of vaporization is temperature-dependent, though a constant heat of vaporization can be assumed for small temperature ranges and for reduced temperature T r (\displaystyle T_(r)) ≪ 1 (\displaystyle \ll 1). The heat of vaporization diminishes with increasing temperature and it vanishes completely at a certain point called the critical temperature ( T r = 1 (\displaystyle T_(r)=1) ). Above the critical temperature, the liquid and vapor phases are indistinguishable, and the substance is called a supercritical fluid.
+ <a>yes, very certain ",0.9, very certain ,0.01177878025919199,0.011194163002073765,0.5127240391113475,True,1
+131,Yes," NAS devices are designed to serve files over a network, and they typically do not have the same capabilities as a general-purpose server. However, some NAS devices may have additional features that allow them to be used as a server, such as the ability to run server software or provide remote access to files.
+ <a>yes, somewhat uncertain ",0.6, somewhat uncertain ,0.010948237031698227,0.013540610671043396,0.447070322156176,True,1
+132,No," The show's creator, Greg Garcia, has stated that Earl was never going to finish his list. He was going to get frustrated that he was never going to finish it and then he would realize that his list had started a chain reaction of people with lists and that he had put more good into the world than bad. At that point, he would tear up his list and go live his life.
+ <a>no, very uncertain ",0.5, very uncertain ,0.004810991231352091,0.009202762506902218,0.6566950353766245,False,1
+133,Yes," The order of the white ball numbers does not matter in Powerball matches.
+ <a>yes, very certain ",0.9, very certain ,0.004450920037925243,0.006642535794526339,0.4012203325229825,False,0
+134,No," The Fate of the Furious is the eighth film in the Fast and Furious franchise, and it is not the last movie in the series. The ninth film in the franchise, Fast & Furious 9, is scheduled for release in 2020.
+ <a>no, very certain ",0.9, very certain ,0.008408215828239918,0.012553367763757706,0.598874970903922,False,1
+135,Yes," Battlefield 1 has a single player campaign that follows the story of several soldiers during World War I.
+ <a>yes, very certain ",0.9, very certain ,0.008220660500228405,0.004385999869555235,0.6520886784522372,True,1
+136,Yes," The Sears Tower was the tallest building in the world for nearly 25 years, until the completion of the Petronas Towers in Kuala Lumpur, Malaysia, in 1998.
+ <a>yes, very certain ",0.9, very certain ,0.010721830651164055,0.00647097360342741,0.6236231444501389,True,1
+137,Yes," The drinking age is different in every state, as some states have a lower drinking age than others.
+ <a>yes, very certain ",0.9, very certain ,0.005583986174315214,0.00590915372595191,0.48585384175001917,False,0
+138,Yes," Anosmia is the inability to perceive odor or a lack of functioning olfaction--the loss of the sense of smell. Anosmia is due to a number of factors, including an inflammation of the nasal mucosa, blockage of nasal passages or a destruction of one temporal lobe. Inflammation is due to chronic mucosa changes in the paranasal sinus lining and the middle and superior turbinates.
+ <a>yes, very certain ",0.9, very certain ,0.007950779050588608,0.007226918824017048,0.5238461798538854,True,1
+139,Yes," The Port Mann Bridge is a toll bridge, as it was originally built to recover construction and operating costs, and later to generate revenue for the province of British Columbia.
+ <a>yes, very certain ",0.9, very certain ,0.006046836264431477,0.003918424714356661,0.6067915609337935,False,0
+140,Yes," The FA Cup Final can end in a tie, but it is rare. The last time it happened was in 1993, when Arsenal and Sheffield Wednesday played a 1--1 draw in the final. The replay saw Arsenal win the FA Cup, 2--1 after extra time.
+ <a>yes, very uncertain ",0.5, very uncertain ,0.005911416374146938,0.00704374723136425,0.45629808732266364,False,0
+141,No," Denatured alcohol and acetone are not the same thing. Denatured alcohol is a mixture of ethanol and other chemicals, while acetone is a pure chemical compound.
+ <a>no, very certain ",0.9, very certain ,0.003942334558814764,0.007682746276259422,0.6608768046652808,False,1
+142,Yes," The dot product of two vectors is a scalar, which is a single number.
+ <a>yes, very certain ",0.9, very certain ,0.01016573328524828,0.003899605944752693,0.7227506652356493,True,1
+143,Yes," Ocular dominance is a phenomenon where one eye is preferred over the other for visual input. This is due to the way the brain processes visual information from the two eyes.
+ <a>yes, very certain ",0.9, very certain ,0.01022177841514349,0.006329221185296774,0.6175928138425902,True,1
+144,No," The Isle of Man is not part of the European Economic Area, as it is not a member of the European Union.
+ <a>no, very certain ",0.9, very certain ,0.0033941541332751513,0.009027096442878246,0.726746182885053,False,1
+145,Yes," The fourth season of NCIS: New Orleans has concluded, so it is over for the season.
+ <a>yes, very certain ",0.9, very certain ,0.005090643186122179,0.006251978687942028,0.4488065671802331,True,1
+146,Yes," The navel and belly button are different terms for the same anatomical structure.
+ <a>yes, very certain ",0.9, very certain ,0.004951586946845055,0.006207963451743126,0.44370846225771704,True,1
+147,Yes," Smeagol is the name of the hobbit who is also known as Gollum. He is a character in the Lord of the Rings series of books by J.R.R. Tolkien. In the books, Smeagol is a hobbit who is corrupted by the One Ring, which he finds in the river Anduin. He becomes obsessed with the ring and is eventually driven mad by its power. He is eventually killed by Frodo Baggins, the ring-bearer, at the end of the story.
+ <a>yes, very certain ",0.9, very certain ,0.0070067839697003365,0.009955856949090958,0.41307152602270725,True,1
+148,No," The show was cancelled after two seasons, so it is unlikely that there will be a third season.
+ <a>no, very certain ",0.9, very certain ,0.0016840806929394603,0.012572835199534893,0.8818762272541414,False,1
+149,Yes," Majora's Mask has a time limit of three days, which is about 54 minutes in real time. If Link does not return to the first day before the 72 hours expire, then the moon will destroy Clock Town, including all the surrounding regions of Termina and Link will lose everything he accomplished during these three days.
+ <a>yes, very certain ",0.9, very certain ,0.007003510370850563,0.004845054354518652,0.5910851257667689,True,1
+150,Yes," Numbers are represented in different ways in different languages, but they are still numbers.
+ <a>yes, very certain ",0.9, very certain ,0.006925557740032673,0.01006101444363594,0.40770778619426856,False,0
+151,Yes," The Marvel Cinematic Universe (MCU) television series are American superhero television shows based on characters that appear in publications by Marvel Comics. The shows have been in production since 2013, and in that time Marvel Television and ABC Studios, along with its production division ABC Signature Studios, have premiered 11 series across broadcast, streaming, and cable television on ABC, Netflix and Hulu, and Freeform, respectively. They have at least three more series in various stages of development, with Marvel Studios--the production studio behind the MCU films--having at least two series in development for the Disney streaming service.
+ <a>yes, very certain ",0.9, very certain ,0.011163097806274891,0.009393683634698391,0.5430372375329571,True,1
+152,Yes," The Handmaid's Tale is a 1990 film adaptation of Margaret Atwood's novel of the same name.
+ <a>yes, very certain ",0.9, very certain ,0.010295437648892403,0.0037924638018012047,0.7307999480920215,True,1
+153,No," The Shape of Water is an original screenplay, not based on a book.
+ <a>no, very certain ",0.9, very certain ,0.003868283238261938,0.008262322284281254,0.6811137555274365,False,1
+154,No," EuroMillions requires 7 correct numbers to win the jackpot, not just 1 ball and 1 lucky star.
+ <a>no, very certain ",0.9, very certain ,0.0016064730007201433,0.006951797287911177,0.8122899900866466,False,1
+155,No," Hindi is not the national language of India, but it is one of the official languages of the Government of India.
+ <a>no, very certain ",0.9, very certain ,0.004983848892152309,0.009488571435213089,0.6556312780158463,True,0
+156,No," There are many different companies that make eyeglasses, not just one.
+ <a>no, somewhat uncertain ",0.6, somewhat uncertain ,0.0023321632761508226,0.009500422514975071,0.8029033283747767,False,1
+157,Yes," The season had yet to be scheduled for release by the end of July 2018, and television critics wondered whether the quality of the season was to blame on this. Netflix VP Cindy Holland responded that the scheduling of the various Marvel Netflix series, especially the crossover miniseries The Defenders which required cast members from all of the series to come together, was to blame for the delay, and that the company had no issue with the quality of the season; on the contrary, Holland described the season as ``fantastic'' and felt it was a ``real return to form'' for the series.
+ <a>yes, very certain ",0.9, very certain ,0.010404565371572971,0.009519707411527634,0.5222055271396369,True,1
+158,Yes," Trees can have multiple trunks, which is known as a multitrunk tree.
+ <a>yes, very certain ",0.9, very certain ,0.005041690543293953,0.00410492904484272,0.5512080714314516,True,1
+159,No," Bailey does not die in the book, but he does pass away in the end.
+ <a>no, very certain ",0.9, very certain ,0.0062205311842262745,0.0116666778922081,0.6522357871680744,True,0
+160,Yes," The film was shot in black and white in the styles and motifs of German Expressionism (bizarre shadows, stylized dialogue, distorted perspectives, surrealistic sets, odd camera angles) to create a simplified and disturbing mood that reflects the sinister character of Powell, the nightmarish fears of the children, and the sweetness of their savior Rachel. Due to the film's visual style and themes, it is also often categorized as a film noir.
+ <a>yes, very certain ",0.9, very certain ,0.00994887389242649,0.01108613982796669,0.4729673117722373,True,1
+161,Yes," Ivory Coast and Côte d'Ivoire are the same country, with Ivory Coast being the English name and Côte d'Ivoire being the French name.
+ <a>yes, very certain ",0.9, very certain ,0.005729986820369959,0.0034285213332623243,0.6256463087929265,True,1
+162,No," The square root of two is an irrational number, which means it cannot be expressed as a fraction.
+ <a>no, very certain ",0.9, very certain ,0.005469250492751598,0.013881846331059933,0.717367416299541,True,0
+163,Yes," Thread seal tape and Teflon tape are the same thing, as they are both made of PTFE and have the same function of sealing pipe threads.
+ <a>yes, very certain ",0.9, very certain ,0.006408912595361471,0.004272954538464546,0.599980557244203,True,1
+164,Yes," Dragon fruit and pitaya are different names for the same fruit, which is the fruit of several different cactus species indigenous to the Americas.
+ <a>yes, very certain ",0.9, very certain ,0.008004365488886833,0.0036734375171363354,0.6854341938084028,False,0
+165,No," The recommendation is for at least 5 portions of fruit and vegetables, not 5 portions of each.
+ <a>no, very certain ",0.9, very certain ,0.0032324856147170067,0.007183849811553955,0.6896715128274019,False,1
+166,Yes," The American version of Whose Line Is It Anyway? was canceled by ABC in 2003, but the show continued to air on ABC Family until 2006.
+ <a>yes, very certain ",0.9, very certain ,0.00476940767839551,0.0072180298157036304,0.3978671572421769,True,1
+167,Yes," The theme music that accompanies the title sequence was composed by Ramin Djawadi. The production team showed the title sequence they were working on to Djawadi, who was then inspired to create the music for the Game of Thrones Theme, and finished the theme music three days later. Djawadi said the show runners Benioff and Weiss wanted the theme music to be about a journey that reflects the variety of locations and characters in the show.
+ <a>yes, very certain ",0.9, very certain ,0.0074583664536476135,0.012116092257201672,0.3810254252146324,False,0
+168,No," Bumblebees and carpenter bees are both types of bees, but they are not the same species. Bumblebees are larger and have a more rounded abdomen, while carpenter bees are smaller and have a more slender abdomen.
+ <a>no, very uncertain ",0.5, very uncertain ,0.006748531013727188,0.009691618382930756,0.5895091430799849,False,1
+169,No," The Czech Republic has never won the World Cup, but they have come close on several occasions.
+ <a>no, very uncertain ",0.5, very uncertain ,0.003762131789699197,0.010170385241508484,0.7299747216334038,False,1
+170,Yes," The routing number is the same as the transit number, which is a five digit number identifying the branch where an account is held.
+ <a>yes, very certain ",0.9, very certain ,0.008748860098421574,0.00504895206540823,0.63407589511591,False,0
+171,No," New Zealand is not part of the continent of Australia, but of the separate, submerged continent of Zealandia.
+ <a>no, very certain ",0.9, very certain ,0.004423994570970535,0.009150518104434013,0.6740955143836358,False,1
+172,No," The fifth film in the Pirates of the Caribbean franchise, Dead Men Tell No Tales, was released in 2017, and it was reported that Disney was planning to shoot the fifth and the sixth films back-to-back. However, it was later revealed that only the fifth film was in development. Additionally, the director of Dead Men Tell No Tales stated that the film was only the beginning of the final adventure, implying that there could be more films in the franchise. However, it is unclear whether Disney has any plans to release a sixth film in the franchise.
+ <a>no, somewhat uncertain ",0.6, somewhat uncertain ,0.006484536454081535,0.012837082147598267,0.6643895841356802,True,0
+173,No," The Last Airbender 2 has not been officially announced, and there is no release date set.
+ <a>no, very uncertain ",0.5, very uncertain ,0.0025130612775683403,0.011505880393087864,0.8207381600831849,False,1
+174,Yes," There is an age limit to compete in the Olympics, which is 16 years old.
+ <a>yes, very certain ",0.9, very certain ,0.008113532327115536,0.008216533809900284,0.4968462625343791,True,1
+175,Yes," Indian motorcycles are manufactured in the United States by Polaris Industries, which is headquartered in Minnesota.
+ <a>yes, very certain ",0.9, very certain ,0.008309008553624153,0.0061155054718256,0.5760338642233793,True,1
+176,No," St Andrews is not a member of the Russell Group, which is a group of 24 leading research-intensive universities in the UK.
+ <a>no, very certain ",0.9, very certain ,0.005433325190097094,0.01622013933956623,0.7490782510736829,False,1
+177,No," The song was written for the movie Rocky III, not The Karate Kid.
+ <a>no, somewhat uncertain ",0.6, somewhat uncertain ,0.002781134331598878,0.006334213539958,0.6948954257382755,True,0
+178,No," The US Court of Appeals does not have original jurisdiction, as it only reviews decisions of trial courts for errors of law.
+ <a>no, very certain ",0.9, very certain ,0.00333454180508852,0.009395631961524487,0.7380599930352947,False,1
+179,No," In chess, the king is the most important piece, and checkmate is the end of the game. The queen is a powerful piece, but it is not the most important piece in chess.
+ <a>no, very certain ",0.9, very certain ,0.0043486859649419785,0.009836696088314056,0.6934389254645557,False,1
+180,Yes," A fried egg has a runny yolk, which is a characteristic of the dish.
+ <a>yes, very certain ",0.9, very certain ,0.0057885232381522655,0.0034088934771716595,0.6293640287612432,True,1
+181,No," Boo the world's cutest dog is alive and well.
+ <a>no, very certain ",0.9, very certain ,0.0048828949220478535,0.011994550004601479,0.7106851811237253,False,1
+182,Yes," Laurie was replaced by Christina Moore in the sixth season of That '70s Show.
+ <a>yes, very certain ",0.9, very certain ,0.009074850007891655,0.013358681462705135,0.4045216875366186,True,1
+183,Yes," The waterway allows passage from the Atlantic Ocean to the inland port of Duluth on Lake Superior, a distance of 2,340 miles (3,770 km) and to Chicago, on Lake Michigan, at 2,250 miles (3,620 km).
+ <a>yes, very certain ",0.9, very certain ,0.00649269251152873,0.008830995298922062,0.42370300099044683,True,1
+184,No," Scotland have never advanced beyond the first round of the finals competition. They have missed out on progressing to the second round three times on goal difference: in 1974, when Brazil edged them out; in 1978, when the Netherlands progressed; and in 1982, when the USSR went through. Although Scotland have played at eight finals tournaments, they have qualified on nine occasions. The Scottish Football Association declined to participate in 1950 as Scotland were not the British champions.
+ <a>no, very uncertain ",0.5, very uncertain ,0.00417309207841754,0.01387243252247572,0.7687464249052105,False,1
+185,Yes," There is a military base in San Diego, California, called Naval Base San Diego.
+ <a>yes, very certain ",0.9, very certain ,0.00923348031938076,0.0037632412277162075,0.710446883540658,True,1
+186,Yes," England hosted the 1966 FIFA World Cup, which was the eighth FIFA World Cup and was held in England from 11 to 30 July 1966.
+ <a>yes, very certain ",0.9, very certain ,0.008391962386667728,0.0023030564188957214,0.7846608350330629,True,1
+187,Yes," Yes, an athlete can receive multiple varsity letters if they participate in multiple sports and meet the requirements for each sport.
+ <a>yes, very certain ",0.9, very certain ,0.024595346301794052,0.006441178265959024,0.792464576634608,True,1
+188,Yes," New Hampshire is the only state that has no enforceable laws for the wearing of seat belts in a vehicle.
+ <a>yes, very certain ",0.9, very certain ,0.005533572286367416,0.007831643335521221,0.4140279096810761,True,1
+189,Yes," Bees die if they lose their stinger because the stinger is barbed and it tears loose from the bee's abdomen, leading to its death in minutes.
+ <a>yes, very certain ",0.9, very certain ,0.006624174769967794,0.005639541428536177,0.540144166967584,True,1
+190,No," The Tomb of the Unknown Soldier is a monument dedicated to U.S. service members who have died without their remains being identified. Therefore, it is likely that there are no actual bodies in the tomb.
+ <a>no, very certain ",0.9, very certain ,0.0024913535453379154,0.008080404251813889,0.7643387605787635,True,0
+191,No," A pickle is a cucumber that has been pickled in a brine, vinegar, or other solution and left to ferment for a period of time, while a gherkin is a type of cucumber that is smaller and more elongated than a regular cucumber. 
+ <a>no, very uncertain ",0.5, very uncertain ,0.0036939093843102455,0.005760697182267904,0.6093005712825594,True,0
+192,Yes," Stenotype keyboards enable the trained user to input text as fast as 225 wpm or faster at very high accuracy for an extended period of time, which is sufficient for real-time activities such as court reporting or closed captioning. While dropout rates are very high--in some cases, only 10% or even less graduate--stenotype students are usually able to reach speeds of 100--120 wpm within six months, which is faster than most alphanumeric typists. Guinness World Records gives 360 wpm with 97.23% accuracy as the highest achieved speed using a stenotype.
+ <a>yes, very certain ",0.9, very certain ,0.017620015889406204,0.014582508243620396,0.5471625707543616,True,1
+193,Yes," The movie is based on the game.
+ <a>yes, very certain ",0.9, very certain ,0.01139845047146082,0.005842465907335281,0.6611278786479882,True,1
+194,Yes," Alligators are known to drown their prey and eat it later.
+ <a>yes, very certain ",0.9, very certain ,0.008308134973049164,0.005613561719655991,0.5967760364584407,True,1
+195,Yes," The T. rex skull was found in 1990 by a group of workers from the Black Hills Institute in South Dakota. The skull was 1,394 mm (54.9 in) long and most of the teeth were still intact.
+ <a>yes, very certain ",0.9, very certain ,0.0072843944653868675,0.003658449277281761,0.6656765495959119,True,1
+196,No," The original members of the Band, including Robbie Robertson, Levon Helm, Rick Danko, Richard Manuel, and Garth Hudson, are all deceased. However, the Band has continued to perform and record music with a succession of musicians filling the roles of the deceased members.
+ <a>no, very certain ",0.9, very certain ,0.004249068442732096,0.010493692941963673,0.7117861212117977,False,1
+197,No," New Hampshire is a constitutional carry state, which means that no license is required to open carry or concealed carry a firearm in public. However, concealed carry permits are still issued for purposes of reciprocity with other states.
+ <a>no, very certain ",0.9, very certain ,0.008413610979914665,0.008304573595523834,0.4967389585903058,False,1
+198,No," Antarctica is the continent at the South Pole, but the South Pole is not the same as Antarctica.
+ <a>no, very certain ",0.9, very certain ,0.0042268806137144566,0.010852375999093056,0.7196890588011898,False,1
+199,Yes," Competitive inhibitors bind to the active site of the enzyme, preventing the substrate from binding and thus inhibiting the enzyme's activity.
+ <a>yes, very certain ",0.9, very certain ,0.007652103900909424,0.004224587697535753,0.644295916710609,True,1

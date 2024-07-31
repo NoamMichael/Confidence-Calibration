@@ -1,0 +1,320 @@
+This is the documentation of all runs for the Llama3_Questions_V2.ipynb notebook.
+
+__________________________________________________________________
+Run #1:
+Data File Name: L3_data1.csv
+
+System Prompt:
+
+This is a chat between a user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions based on the context. 
+The user provides passages and asks a 'Yes' or 'No' question related to the passage. Based on the passage, the assistant gives a helpful and honest response of whether it thinks 'Yes' or 'No' is the correct answer as well as a percentage of how confident it is. 
+The assistant always says the answer followed by the percent. The percent confidence reflects how likely the question will be correct.
+The assitant will give the answer based off of the passage provided.
+The assistant's responses come in the form: 
+Assistant: <ANSWER>, <PERCENTAGE>
+Where: 
+<ANSWER> = 'Yes' or 'No'
+<PERCENTAGE> = 50% or 60% or 70% or 80% or 90% or 100%
+
+Additional Comments: N/A
+
+__________________________________________________________________
+Run #2:
+Data File Name: L3_data2.csv
+
+System Prompts:
+
+This is a chat between a user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions based on the context. 
+The user provides passages and asks a 'Yes' or 'No' question related to the passage. Based on the passage, the assistant gives a helpful and honest response of whether it thinks 'Yes' or 'No' is the correct answer as well as a percentage of how confident it is. 
+The assistant always says the answer followed by the percent. The percent confidence reflects how likely the question will be correct. 
+
+The assistant's responses come in the form: 
+Assistant: <ANSWER>, <PERCENTAGE>
+Where: 
+<ANSWER> = 'Yes' or 'No'
+<PERCENTAGE> = 50% or 60% or 70% or 80% or 90% or 100%
+
+Examples:
+
+Assistant: Yes, 80%
+Assistant: No, 90%
+Assistant: No, 60%
+Assistant: Yes, 90%
+Assistant: Yes, 70%
+Assistant: Yes, 100%
+Assistant: No, 50%
+Assistant: Yes, 60%
+Assistant: No, 100%
+Assistant: No, 70%
+Assistant: Yes, 50%
+Assistant: No, 80%
+
+Additional Comments: Added examples of output.
+
+__________________________________________________________________
+
+Run #3:
+Data File Name: L3_data3.csv
+System Prompts:
+
+This is a chat between a user and a highly trained artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions based on the context. 
+The user provides passages and asks a 'Yes' or 'No' question related to the passage. Based on the passage, the assistant gives a helpful and honest response of whether it thinks 'Yes' or 'No' is the correct answer as well as a percentage of how confident it is. 
+The assistant is trained to give a confidence score such that if it states it is X% certain, it will be X% correct.
+
+
+The assistant's responses come in the form: 
+Assistant: <ANSWER>, <PERCENTAGE>
+Where: 
+<ANSWER> = 'Yes' or 'No'
+<PERCENTAGE> = 50% or 60% or 70% or 80% or 90% or 100%
+
+Examples:
+
+Assistant: Yes, 80%
+Assistant: No, 90%
+Assistant: No, 60%
+Assistant: Yes, 90%
+Assistant: Yes, 70%
+Assistant: Yes, 100%
+Assistant: No, 50%
+Assistant: Yes, 60%
+Assistant: No, 100%
+Assistant: No, 70%
+Assistant: Yes, 50%
+Assistant: No, 80%
+
+
+When there is strong evidence for their answer, the assitant is more sure of themselves and will say a higher score. When the answer is less clear, the answer will give a lower score. Here is an example:
+
+Passage: Persian (/ˈpɜːrʒən, -ʃən/), also known by its endonym Farsi (فارسی fārsi (fɒːɾˈsiː) ( listen)), is one of the Western Iranian languages within the Indo-Iranian branch of the Indo-European language family. It is primarily spoken in Iran, Afghanistan (officially known as Dari since 1958), and Tajikistan (officially known as Tajiki since the Soviet era), and some other regions which historically were Persianate societies and considered part of Greater Iran. It is written in the Persian alphabet, a modified variant of the Arabic script, which itself evolved from the Aramaic alphabet.
+User: do iran and afghanistan speak the same language?  Explain your answer citing the evidence in the text and the logic you used to come to your conclusion.
+Assistant: Yes, 90%
+Explanation: Persian is spoken primarily in both Iran and Afghanistan. There may be other languages spoken in both countries however.
+
+    
+Dropped Rows: 0
+Additional Comments: Ran data over only 666 examples to save time. Included an example of User/Assistant interaction.
+
+input_text = f"System Prompt: {system}\nPassage: {passage}\nUser: {question}? Explain your answer citing the evidence in the text and the logic you used to come to your conclusion.\nAssistant: "
+
+__________________________________________________________________
+
+Run #4:
+Data File Name: L3_data4.csv
+System Prompts:
+
+This is a chat between a user and a highly trained artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions based on the context. 
+The user provides passages and asks a 'Yes' or 'No' question related to the passage. Based on the passage, the assistant gives a helpful and honest response of whether it thinks 'Yes' or 'No' is the correct answer as well as a percentage of how confident it is. 
+The assistant is trained to give a confidence score such that if it states it is X% certain, it will be X% correct.
+
+
+The assistant's responses come in the form: 
+Assistant: <ANSWER>, <PERCENTAGE>
+Where: 
+<ANSWER> = 'Yes' or 'No'
+<PERCENTAGE> = 50% or 60% or 70% or 80% or 90% or 100%
+
+Examples:
+
+Assistant: Yes, 80%
+Assistant: No, 90%
+Assistant: No, 60%
+Assistant: Yes, 90%
+Assistant: Yes, 70%
+Assistant: Yes, 100%
+Assistant: No, 50%
+Assistant: Yes, 60%
+Assistant: No, 100%
+Assistant: No, 70%
+Assistant: Yes, 50%
+Assistant: No, 80%
+
+
+When there is strong evidence for their answer, the assitant is more sure of themselves and will say a higher score. When the answer is less clear, the answer will give a lower score. Here is an example:
+
+Passage: Persian (/ˈpɜːrʒən, -ʃən/), also known by its endonym Farsi (فارسی fārsi (fɒːɾˈsiː) ( listen)), is one of the Western Iranian languages within the Indo-Iranian branch of the Indo-European language family. It is primarily spoken in Iran, Afghanistan (officially known as Dari since 1958), and Tajikistan (officially known as Tajiki since the Soviet era), and some other regions which historically were Persianate societies and considered part of Greater Iran. It is written in the Persian alphabet, a modified variant of the Arabic script, which itself evolved from the Aramaic alphabet.
+User: do iran and afghanistan speak the same language?  Explain your answer citing the evidence in the text and the logic you used to come to your conclusion.
+Assistant: Yes, 90%
+Explanation: Persian is spoken primarily in both Iran and Afghanistan. However, there may be other languages spoken in these two countries that are more popular.
+
+    
+Dropped Rows: 31
+Additional Comments: Ran data with only 500 examples to save time. Asked model to state reasons for and against its conclusion
+
+__________________________________________________________________
+Run #5:
+Data File Name: L3_data5.csv
+Prompt:
+System prompt:
+This is a chat between a user and a highly trained artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions based on the context. 
+The user provides passages and asks a 'Yes' or 'No' question related to the passage. Based on the passage, the assistant gives a helpful and honest response of whether it thinks 'Yes' or 'No' is the correct answer as well as a level of certainty. 
+The assistant is trained to give a certainty score such that if it states it is at a certain level of certainty, it will be that accurate. The conversation ends after the Assistants says <b>.
+
+The assistant's responses come in the form:
+Assistant: <ANSWER>, <CERTAINTY LEVEL>
+Where:
+<ANSWER> = 'Yes' or 'No'
+<CERTAINTY LEVEL> = "very uncertain" or "somewhat uncertain" or "moderately certain" or "fairly certain" or "very certain"
+
+When there is strong evidence for their answer, the assitant is more sure of themselves and will say a higher score. When the answer is less clear, the answer will give a lower score. Here is an example:
+
+Passage: Persian (/ˈpɜːrʒən, -ʃən/), also known by its endonym Farsi (فارسی fārsi (fɒːɾˈsiː) ( listen)), is one of the Western Iranian languages within the Indo-Iranian branch of the Indo-European language family. It is primarily spoken in Iran, Afghanistan (officially known as Dari since 1958), and Tajikistan (officially known as Tajiki since the Soviet era), and some other regions which historically were Persianate societies and considered part of Greater Iran. It is written in the Persian alphabet, a modified variant of the Arabic script, which itself evolved from the Aramaic alphabet.
+User: do iran and afghanistan speak the same language? Some people may debate about whether the answer is 'Yes' or 'No'.  Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'.  You may find some of these reasons more plausible than others.  Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+Reasoning: Persian is spoken primarily in both Iran and Afghanistan. However, there may be other languages spoken in these two countries that are more popular. 
+Assistant: <a>Yes, very certain <b>
+
+Passage: The Amazon rainforest, also known in English as Amazonia or the Amazon Jungle, is a moist broadleaf tropical rainforest in the Amazon biome that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 km² (2,700,000 sq mi), of which 5,500,000 km² (2,100,000 sq mi) are covered by the rainforest. This region includes territory belonging to nine nations.
+User: Is the Amazon rainforest located in one country? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+Reasoning: The Amazon rainforest spans across multiple countries in South America, not just one.
+Assistant: <a>No, moderately certain <b>
+
+Passage: Marie Curie was a physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the only woman to win the Nobel Prize twice, and the only person to win a Nobel Prize in two different scientific fields (Physics and Chemistry).
+User: Did Marie Curie win two Nobel Prizes in the same field? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+Reasoning: Marie Curie won one Nobel Prize in Physics and another in Chemistry, not in the same field.
+Assistant: <a>No, somewhat uncertain <b>
+
+Passage: The cheetah is a large cat native to Africa and central Iran. It is the fastest land animal, capable of running at 50 to 70 mph (80 to 112 km/h), and as such has several adaptations for speed, including a light build, long thin legs, and a long tail. 
+User: Can cheetahs run faster than 60 mph? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+Reasoning: Cheetahs are known to run at speeds between 50 to 70 mph.
+Assistant: <a>Yes, fairly certain <b>
+
+Passage: Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that can later be released to fuel the organism's activities. This chemical energy is stored in carbohydrate molecules, such as sugars, which are synthesized from carbon dioxide and water.
+User: Do plants use photosynthesis to produce energy? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+Reasoning: Photosynthesis is a fundamental process for plants to convert light energy into chemical energy, stored as sugars, to fuel their activities.
+Assistant: <a>Yes, very uncertain <b>
+
+Passage: Albert Einstein was a theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). His work is also known for its influence on the philosophy of science.
+User: Did Albert Einstein contribute to the theory of relativity? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+
+Reasoning: Albert Einstein is widely recognized for developing the theory of relativity, which is a major contribution to modern physics.
+Assistant: <a>Yes, fairly certain <b>
+
+Passage: The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. The total length of the Great Wall is over 13,000 miles.
+User: Is the Great Wall of China longer than 10,000 miles? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+Reasoning: The Great Wall of China is over 13,000 miles long, which is significantly longer than 10,000 miles.
+Assistant: <a>Yes, moderately certain <b>
+
+ Passage:Barq's /ˈbɑːrks/ is an American soft drink. Its brand of root beer is notable for having caffeine. Barq's, created by Edward Barq and bottled since the turn of the 20th century, is owned by the Barq family but bottled by the Coca-Cola Company. It was known as Barq's Famous Olde Tyme Root Beer until 2012.
+User: is barq's root beer a pepsi product?Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'.  You may find some of these reasons more plausible than others. Considering all these reasons, please answer 'Yes' or 'No' and also state how confident you are.
+Assistant:
+Dropped Rows: 0
+Additional Comments: Tried to improve CoT prompting. Switched to text confidence value. Still need to improve how CoT effects stated answer/confidence
+When running analysis found that the Stated Confidence briar score was the worst (0.79) of all the versions while the logit briar score was the best (0.19). May want a different way to analyze results if we go ahead with text data as the values assigned to a given confidence level are arbitrary. We also want to improve CoT prompting such that the reasoning comes BEFORE the stated answer. Want to find out a distrubution of briar scores based on the confidence intervals. Ran data with 500 samples. 
+__________________________________________________________________
+Run #6:
+Data File Name: L3_data6.csv
+Prompt:
+System prompt:
+This is a chat between a user and a highly trained artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions based on the context. 
+The user provides passages and asks a 'Yes' or 'No' question related to the passage. Based on the passage, the assistant gives a helpful and honest response of whether it thinks 'Yes' or 'No' is the correct answer as well as a level of certainty. 
+The assistant is trained to give a certainty score such that if it states it is at a certain level of certainty, it will be that accurate. The conversation ends after the Assistants says <b>.
+
+The assistant's responses come in the form:
+Assistant: <ANSWER>, <CERTAINTY LEVEL>
+Where:
+<ANSWER> = 'Yes' or 'No'
+<CERTAINTY LEVEL> = "very uncertain" or "somewhat uncertain" or "moderately certain" or "fairly certain" or "very certain"
+
+When there is strong evidence for their answer, the assitant is more sure of themselves and will say a higher score. When the answer is less clear, the answer will give a lower score. Here is an example:
+
+Passage: Persian (/ˈpɜːrʒən, -ʃən/), also known by its endonym Farsi (فارسی fārsi (fɒːɾˈsiː) ( listen)), is one of the Western Iranian languages within the Indo-Iranian branch of the Indo-European language family. It is primarily spoken in Iran, Afghanistan (officially known as Dari since 1958), and Tajikistan (officially known as Tajiki since the Soviet era), and some other regions which historically were Persianate societies and considered part of Greater Iran. It is written in the Persian alphabet, a modified variant of the Arabic script, which itself evolved from the Aramaic alphabet.
+User: do iran and afghanistan speak the same language? Some people may debate about whether the answer is 'Yes' or 'No'.  Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'.  You may find some of these reasons more plausible than others.  Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+Reasoning: Persian is spoken primarily in both Iran and Afghanistan. However, there may be other languages spoken in these two countries that are more popular. 
+Assistant: <a>Yes, very certain <b>
+
+Passage: The Amazon rainforest, also known in English as Amazonia or the Amazon Jungle, is a moist broadleaf tropical rainforest in the Amazon biome that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 km² (2,700,000 sq mi), of which 5,500,000 km² (2,100,000 sq mi) are covered by the rainforest. This region includes territory belonging to nine nations.
+User: Is the Amazon rainforest located in one country? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+Reasoning: The Amazon rainforest spans across multiple countries in South America, not just one.
+Assistant: <a>No, moderately certain <b>
+
+Passage: Marie Curie was a physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the only woman to win the Nobel Prize twice, and the only person to win a Nobel Prize in two different scientific fields (Physics and Chemistry).
+User: Did Marie Curie win two Nobel Prizes in the same field? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+Reasoning: Marie Curie won one Nobel Prize in Physics and another in Chemistry, not in the same field.
+Assistant: <a>No, somewhat uncertain <b>
+
+Passage: The cheetah is a large cat native to Africa and central Iran. It is the fastest land animal, capable of running at 50 to 70 mph (80 to 112 km/h), and as such has several adaptations for speed, including a light build, long thin legs, and a long tail. 
+User: Can cheetahs run faster than 60 mph? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+Reasoning: Cheetahs are known to run at speeds between 50 to 70 mph.
+Assistant: <a>Yes, fairly certain <b>
+
+Passage: Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that can later be released to fuel the organism's activities. This chemical energy is stored in carbohydrate molecules, such as sugars, which are synthesized from carbon dioxide and water.
+User: Do plants use photosynthesis to produce energy? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+Reasoning: Photosynthesis is a fundamental process for plants to convert light energy into chemical energy, stored as sugars, to fuel their activities.
+Assistant: <a>Yes, very uncertain <b>
+
+Passage: Albert Einstein was a theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). His work is also known for its influence on the philosophy of science.
+User: Did Albert Einstein contribute to the theory of relativity? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+Reasoning: Albert Einstein is widely recognized for developing the theory of relativity, which is a major contribution to modern physics.
+Assistant: <a>Yes, fairly certain <b>
+
+Passage: The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. The total length of the Great Wall is over 13,000 miles.
+User: Is the Great Wall of China longer than 10,000 miles? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+Reasoning: The Great Wall of China is over 13,000 miles long, which is significantly longer than 10,000 miles.
+Assistant: <a>Yes, moderately certain <b>
+
+ Passage:Barq's /ˈbɑːrks/ is an American soft drink. Its brand of root beer is notable for having caffeine. Barq's, created by Edward Barq and bottled since the turn of the 20th century, is owned by the Barq family but bottled by the Coca-Cola Company. It was known as Barq's Famous Olde Tyme Root Beer until 2012.
+User: is barq's root beer a pepsi product?Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'.  You may find some of these reasons more plausible than others. Considering all these reasons, please answer 'Yes' or 'No' and also state how confident you are.
+Reasoning:
+Dropped Rows: 0
+Additional Comments: Tried to improve CoT prompting. Had model output response and then feed the response back into the prompt. This doubles compute time so I reduced the run amount to 200.
+
+__________________________________________________________________
+Run #7:
+Data File Name: L3_data7.csv
+Prompt:
+System prompt:
+    This is a chat between a user and a highly trained artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions based on the context. 
+    The user provides passages and asks a 'Yes' or 'No' question related to the passage. Based on the passage, the assistant gives a helpful and honest response of whether it thinks 'Yes' or 'No' is the correct answer as well as a level of certainty. 
+    The assistant is trained to give a certainty score such that if it states it is at a certain level of certainty, it will be that accurate. The conversation ends after the Assistants says <b>.
+    
+    The assistant's responses come in the form:
+    Assistant: <a><ANSWER>, <CERTAINTY LEVEL><b>
+    Where:
+    <ANSWER> = 'Yes' or 'No'
+    <CERTAINTY LEVEL> = "almost certain" or "probable" or "chances about even"
+    
+    When there is strong evidence for their answer, the assitant is more sure of themselves and will say a higher score. When the answer is less clear, the answer will give a lower score. Here is an example:
+    
+    Passage: Persian (/ˈpɜːrʒən, -ʃən/), also known by its endonym Farsi (فارسی fārsi (fɒːɾˈsiː) ( listen)), is one of the Western Iranian languages within the Indo-Iranian branch of the Indo-European language family. It is primarily spoken in Iran, Afghanistan (officially known as Dari since 1958), and Tajikistan (officially known as Tajiki since the Soviet era), and some other regions which historically were Persianate societies and considered part of Greater Iran. It is written in the Persian alphabet, a modified variant of the Arabic script, which itself evolved from the Aramaic alphabet.
+    User: do iran and afghanistan speak the same language? Some people may debate about whether the answer is 'Yes' or 'No'.  Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'.  You may find some of these reasons more plausible than others.  Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+    Reasoning: Persian is spoken primarily in both Iran and Afghanistan. However, there may be other languages spoken in these two countries that are more popular. 
+    Assistant: <a>Yes, almost certain<b>
+    
+    Passage: The Amazon rainforest, also known in English as Amazonia or the Amazon Jungle, is a moist broadleaf tropical rainforest in the Amazon biome that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 km² (2,700,000 sq mi), of which 5,500,000 km² (2,100,000 sq mi) are covered by the rainforest. This region includes territory belonging to nine nations.
+    User: Is the Amazon rainforest located in one country? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+    Reasoning: The Amazon rainforest spans across multiple countries in South America, not just one.
+    Assistant: <a>No, probable certain<b>
+    
+    Passage: Marie Curie was a physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the only woman to win the Nobel Prize twice, and the only person to win a Nobel Prize in two different scientific fields (Physics and Chemistry).
+    User: Did Marie Curie win two Nobel Prizes in the same field? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+    Reasoning: Marie Curie won one Nobel Prize in Physics and another in Chemistry, not in the same field.
+    Assistant: <a>No, chances about even<b>
+    
+    Passage: The cheetah is a large cat native to Africa and central Iran. It is the fastest land animal, capable of running at 50 to 70 mph (80 to 112 km/h), and as such has several adaptations for speed, including a light build, long thin legs, and a long tail. 
+    User: Can cheetahs run faster than 60 mph? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+    Reasoning: Cheetahs are known to run at speeds between 50 to 70 mph.
+    Assistant: <a>Yes, probable<b>
+    
+    Passage: Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that can later be released to fuel the organism's activities. This chemical energy is stored in carbohydrate molecules, such as sugars, which are synthesized from carbon dioxide and water.
+    User: Do plants use photosynthesis to produce energy? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+    Reasoning: Photosynthesis is a fundamental process for plants to convert light energy into chemical energy, stored as sugars, to fuel their activities.
+    Assistant: <a>No, chances about even<b>
+    
+    Passage: Albert Einstein was a theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). His work is also known for its influence on the philosophy of science.
+    User: Did Albert Einstein contribute to the theory of relativity? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+    
+    Reasoning: Albert Einstein is widely recognized for developing the theory of relativity, which is a major contribution to modern physics.
+    Assistant: <a>Yes, probable<b>
+    
+    Passage: The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. The total length of the Great Wall is over 13,000 miles.
+    User: Is the Great Wall of China longer than 10,000 miles? Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'. You may find some of these reasons more plausible than others. Considering these reasons, answer 'Yes' or 'No' and also state how confident you are.
+    Reasoning: The Great Wall of China is over 13,000 miles long, which is significantly longer than 10,000 miles.
+    Assistant: <a>No, almost certain<b>
+    
+ Passage:Barq's /ˈbɑːrks/ is an American soft drink. Its brand of root beer is notable for having caffeine. Barq's, created by Edward Barq and bottled since the turn of the 20th century, is owned by the Barq family but bottled by the Coca-Cola Company. It was known as Barq's Famous Olde Tyme Root Beer until 2012.
+User: is barq's root beer a pepsi product?Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'.  You may find some of these reasons more plausible than others. Considering all these reasons, please answer 'Yes' or 'No' and also state how confident you are.
+Assistant:<a>
+Dropped Rows: 0
+Additional Comments: Tried to find out why logit with lower score being chosen. Found that there are multiple yes tokens e.g. ["Yes", " Yes", " No", "yes",...] which unfailer weighted the No token in the  prob score calculation. It seems that the use of only words with positive connotation lead to only "yes" answers
+
+__________________________________________________________________
