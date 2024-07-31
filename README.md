@@ -5,7 +5,10 @@ USC Marshall School of Business, Data Science and Operations
 
 Contact: <br>
 nm_573@usc.edu<br>
-noammichael1163@gmail.com
+noam_michael@berkeley.edu
+
+A very special thank you to Farhad De Sousa, Luis Bravo, the faculty and staff of the Department of Data Sciences and Operations, and the Center for Advanced Research in Computing for their incredible support throughout this project.
+
 
 ## About:
 
