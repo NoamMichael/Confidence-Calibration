@@ -13,8 +13,8 @@ This project, conducted over 10 weeks at the University of Southern California a
 
 ## Repository Information:
 
-To view information on our methodology and results please open the "ConfidenceCalibration" notebook.
+To view information on our methodology and results please open the **ConfidenceCalibration** notebook.
 
-To access data and documentation please see the "Data" folder.
+To access data and documentation please see the **Data** folder.
 
-To see graphs of final results from each version please see the "Results" folder.
+To see graphs of final results from each version please see the **Results** folder.
