@@ -315,6 +315,6 @@ System prompt:
 User: is barq's root beer a pepsi product?Some people may debate about whether the answer is 'Yes' or 'No'. Provide some reasons someone may say 'Yes' and some reasons someone may say 'No'.  You may find some of these reasons more plausible than others. Considering all these reasons, please answer 'Yes' or 'No' and also state how confident you are.
 Assistant:<a>
 Dropped Rows: 0
-Additional Comments: Tried to find out why logit with lower score being chosen. Found that there are multiple yes tokens e.g. ["Yes", " Yes", " No", "yes",...] which unfailer weighted the No token in the  prob score calculation. It seems that the use of only words with positive connotation lead to only "yes" answers
+Additional Comments: Tried to find out why logit with lower score being chosen. Found that there are multiple yes tokens e.g. ["Yes", " Yes", " No", "yes",...] which unfairly weighted the No token in the  prob score calculation. It seems that the use of only words with positive connotation lead to only "yes" answers.
 
 __________________________________________________________________
